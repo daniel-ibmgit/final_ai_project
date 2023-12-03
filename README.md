@@ -40,6 +40,7 @@ The model is compiled using categorical crossentropy as the loss function, the A
 
 ```python
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+```
 
 ## Saved Model
 
