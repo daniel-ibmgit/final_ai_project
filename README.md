@@ -40,3 +40,9 @@ The model is compiled using categorical crossentropy as the loss function, the A
 
 ```python
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+## Saved Model
+
+`mnist.h5` contains the saved model which is used in deployed using streamlit and used for predictions.
+`webapp.py` contains code for deploying the model
+`demo video` is hosted on youtube and the video link is here.
